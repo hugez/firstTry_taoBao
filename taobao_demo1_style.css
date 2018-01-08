@@ -1,0 +1,57 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+ul{
+	list-style:none
+}
+a{
+	text-decoration:none
+}
+.nav{
+		background-color:rgb(245, 245, 245);
+}
+.nav-content {
+	width:1190px;
+	height:36px;
+	/*background: red;查看用*/
+	margin:auto;
+}
+.nav-content-left{
+	float: left;
+	padding-left:0px;
+	margin: 0px;
+	line-height: 30px;
+	height:auto;
+}
+.nav-content-left-menu{
+	float: left;
+	position: relative;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.nav-content-left-menu a{
+	font-style: normal;
+	font-size: 12px;
+	color: rgb(108, 108, 108);
+}
+
+.nav-content-right{
+	float: right;
+	/*background: green;查看用*/
+	padding-right:0px;
+	margin: 0px;
+	line-height: 30px;
+	height:auto;
+}
+.nav-content-right-menu{
+	float: right;
+	position: relative;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+.nav-content-right-menu a{
+	font-style:normal;
+	font-size: 12px;
+	color: rgb(108, 108, 108);
+}
